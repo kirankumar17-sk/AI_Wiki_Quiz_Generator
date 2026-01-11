@@ -4,7 +4,7 @@ import { BookOpen, History, Loader2, X } from "lucide-react";
 import QuizView from "./components/QuizView";
 
 // Ensure this matches your backend URL
-const API_BASE_URL = "http://127.0.0.1:8000";
+const API_BASE_URL = "https://wiki-quiz-backend-011u.onrender.com";
 
 function App() {
   const [activeTab, setActiveTab] = useState("generate");
