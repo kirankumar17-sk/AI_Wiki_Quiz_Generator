@@ -1,0 +1,74 @@
+# WikiQuiz AI - Wikipedia to Quiz Generator 🧠✨
+
+A full-stack AI application that transforms any Wikipedia article into an interactive quiz in seconds. It uses **Google Gemini Pro** to generate questions, **FastAPI** for the backend, and **React** for a responsive frontend.
+
+## 🚀 Live Demo
+- **Frontend (Vercel):** [Add your Vercel Link Here]
+- **Backend (Render):** [Add your Render Link Here]
+
+---
+
+## 🛠️ Tech Stack
+
+### **Frontend**
+- **React (Vite):** Fast and modern UI library.
+- **Tailwind CSS:** For styling and responsive design.
+- **Lucide React:** For beautiful icons.
+- **Axios:** For API communication.
+
+### **Backend**
+- **FastAPI:** High-performance Python web framework.
+- **LangChain:** Framework for LLM orchestration.
+- **Google Gemini Pro:** The AI model used for generating content.
+- **BeautifulSoup4:** For scraping Wikipedia content.
+- **PostgreSQL (Supabase/Neon):** Relational database for storing quiz history.
+- **SQLAlchemy:** ORM for database management.
+
+### **Deployment**
+- **Frontend:** Vercel
+- **Backend:** Render
+- **Database:** Neon / Supabase
+
+---
+
+## ✨ Features
+
+- **🔗 URL Scraping:** content extraction from any Wikipedia URL.
+- **🤖 AI Generation:** Automatically creates 5 multiple-choice questions with difficulty levels and detailed explanations.
+- **📝 Interactive Quiz:** Take the quiz, select answers, and get instant feedback.
+- **💾 History System:** All generated quizzes are saved to a PostgreSQL database and can be accessed later.
+- **⚡ Duplicate Detection:** Checks if a quiz for the URL already exists to save API costs and time.
+- **📱 Responsive Design:** Works perfectly on desktop and mobile.
+
+---
+
+## 📸 Screenshots
+
+### 1. Home Page & Quiz Generation
+*(Paste your screenshot of the main page here)*
+![Home Page](./sample_data/screenshot_tab1.png)
+
+### 2. Interactive Quiz View
+*(Paste your screenshot of the quiz card here)*
+![Quiz View](./sample_data/screenshot_quiz.png)
+
+### 3. Quiz History
+*(Paste your screenshot of the history table here)*
+![History Tab](./sample_data/screenshot_history.png)
+
+---
+
+## 🏃‍♂️ How to Run Locally
+
+Follow these steps to set up the project on your local machine.
+
+### Prerequisites
+- Node.js & npm installed.
+- Python 3.9+ installed.
+- A Google Cloud API Key (Gemini).
+- A PostgreSQL Database URL (Local or Cloud).
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/your-username/wiki-quiz-app.git](https://github.com/your-username/wiki-quiz-app.git)
+cd wiki-quiz-app
